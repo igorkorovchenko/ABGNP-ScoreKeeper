@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.scorekeeper.controller.MainActivity">
+
+    <ListView
+        android:id="@+id/game_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:id="@+id/parent_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/scrollview_margin"
+        android:layout_above="@+id/buttons">
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/scrollview_margin">
+
+        <Button
+            android:id="@+id/button_undo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_button"
+            android:layout_marginRight="@dimen/margin_button"
+            android:layout_weight="1"
+            android:background="@color/color_primary_dark"
+            android:onClick="onUndo"
+            android:text="@string/btn_text_undo"
+            android:textAllCaps="true"
+            style="@style/Widget.AppCompat.Button" />
+
+        <Button
+            android:id="@+id/button_reset_scores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_button"
+            android:layout_marginRight="@dimen/margin_button"
+            android:layout_weight="1"
+            android:background="@color/color_primary_dark"
+            android:onClick="onResetScores"
+            android:text="@string/btn_text_reset_scores"
+            android:textAllCaps="true"
+            style="@style/Widget.AppCompat.Button" />
+
+        <Button
+            android:id="@+id/button_reset_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_button"
+            android:layout_marginRight="@dimen/margin_button"
+            android:layout_weight="1"
+            android:background="@color/color_primary_dark"
+            android:onClick="onResetGame"
+            android:text="@string/btn_text_reset_game"
+            android:textAllCaps="true"
+            style="@style/Widget.AppCompat.Button" />
+
+    </LinearLayout>
+
+</RelativeLayout>

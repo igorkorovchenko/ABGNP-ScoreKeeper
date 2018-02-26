@@ -1,0 +1,39 @@
+{
+  "name":"Snooker",
+  "teams":{
+    "Team 1":{
+      "Player":{
+        "buttons":{
+          "Red ball": [1, 0],
+          "Yellow ball": [2, 0],
+          "Green ball": [3, 0],
+          "Brown ball": [4, 0],
+          "Blue ball": [5, 0],
+          "Rose ball": [6, 0],
+          "Black ball": [7, 0],
+          "Foul 4": [0, 4],
+          "Foul 5": [0, 5],
+          "Foul 6": [0, 6],
+          "Foul 7": [0, 7]
+        }
+      }
+    },
+    "Team 2":{
+      "Player":{
+        "buttons":{
+          "Red ball": [0, 1],
+          "Yellow ball": [0, 2],
+          "Green ball": [0, 3],
+          "Brown ball": [0, 4],
+          "Blue ball": [0, 5],
+          "Rose ball": [0, 6],
+          "Black ball": [0, 7],
+          "Foul 4": [4, 0],
+          "Foul 5": [5, 0],
+          "Foul 6": [6, 0],
+          "Foul 7": [7, 0]
+        }
+      }
+    }
+  }
+}

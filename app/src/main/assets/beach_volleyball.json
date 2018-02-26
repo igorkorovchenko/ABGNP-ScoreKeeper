@@ -1,0 +1,41 @@
+{
+  "name":"Beach volleyball",
+  "teams":{
+    "Team 1":{
+      "Player 1":{
+        "buttons":{
+          "Kill": [1, 0],
+          "Ace": [1, 0],
+          "Block": [1, 0],
+          "Error": [0, 1]
+        }
+      },
+      "Player 2":{
+        "buttons":{
+          "Kill": [1, 0],
+          "Ace": [1, 0],
+          "Block": [1, 0],
+          "Error": [0, 1]
+        }
+      }
+    },
+    "Team 2":{
+      "Player 1":{
+        "buttons":{
+          "Kill": [0, 1],
+          "Ace": [0, 1],
+          "Block": [0, 1],
+          "Error": [1, 0]
+        }
+      },
+      "Player 2":{
+        "buttons":{
+          "Kill": [0, 1],
+          "Ace": [0, 1],
+          "Block": [0, 1],
+          "Error": [1, 0]
+        }
+      }
+    }
+  }
+}

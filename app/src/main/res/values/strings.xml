@@ -1,0 +1,20 @@
+<resources>
+
+    <string-array name="game_names">
+        <item>Beach volleyball</item>
+        <item>Snooker</item>
+    </string-array>
+
+    <string-array name="game_files">
+        <item>beach_volleyball.json</item>
+        <item>snooker.json</item>
+    </string-array>
+
+    <string name="app_name">ScoreKeeper</string>
+    <string name="first_selection">What is the game?</string>
+    <string name="zero_scores">0</string>
+    <string name="btn_text_undo">Undo</string>
+    <string name="btn_text_reset_scores">Reset</string>
+    <string name="btn_text_reset_game">New game</string>
+
+</resources>
