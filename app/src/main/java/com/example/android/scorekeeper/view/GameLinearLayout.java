@@ -278,6 +278,7 @@ public class GameLinearLayout extends LinearLayout {
             InputStream inputStream = context.getAssets().open(jsonFileName);
             int size = inputStream.available();
             byte[] buffer = new byte[size];
+            inputStream.read(buffer);
             inputStream.close();
             jsonString = new String(buffer, "UTF-8");
         } catch (IOException ex) {
